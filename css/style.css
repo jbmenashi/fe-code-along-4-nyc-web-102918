@@ -76,10 +76,25 @@ figcaption {
 .wrapper {
   width: 960px;
   margin: 0 auto;
-  background: gray;
+  background: #CCC;
 }
 
+.col-1 {
+  float: left;
+  width: 32%;
+  background: #CCC;
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #CCC;
+}
 
+.col-3 {
+  background: #CCC;
+}
 
-
+[class*="col-"] {
+  margin-left: 2%;
+}
